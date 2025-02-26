@@ -10,8 +10,9 @@ include_directories(include)
 
 # Add source files
 set(SOURCES
-        src/main.c
+        main.c
         src/garden.c
+        src/plot.c
         src/plant.c
         src/tile.c
         src/inventory.c

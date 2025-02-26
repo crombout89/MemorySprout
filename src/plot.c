@@ -15,13 +15,13 @@ void initializePlot(Plot *plot) {
 // Water a plot
 void waterPlot(Plot *plot) {
     plot->moisture = (plot->moisture + 10 > 100) ? 100 : plot->moisture + 10;
-    printf("Plot watered. Moisutre is now %d.\n", plot->moisture);
+    printf("Plot watered. Moisture is now %d.\n", plot->moisture);
 }
 
 // Fertilize a plot
 void fertilizePlot(Plot *plot) {
     plot->fertility = (plot->fertility + 15 > 100) ? 100 : plot->fertility + 15;
-    printf("Plot fertilized. Fertility is now %d.", plot->fertility);
+    printf("Plot fertilized. Fertility is now %d.\n", plot->fertility);
 }
 
 // Plant a crop in the plot
@@ -30,6 +30,14 @@ void plantInPlot(Plot *plot, const char *plantName) {
         printf("Plot already has a plant: %s.\n", plot->plantName);
         return;
     }
+    // Allocate memory for the plant name and copy the name
+    plot->plantName = (char *)malloc(strlen(plantName) + 1);
+    if (plot->plantName == NULL) {
+        printf("Error: Memory allocation failed.");
+        return;
+    }
+    strcpy(plot->plantName, plantName);
+    printf("Planted %s in the plot.\n", plot->plantName);
 }
 
 // Harvest the plant

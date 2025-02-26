@@ -1,24 +1,7 @@
+#include "plot.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include <string.h>
-
-// Soil Type enum
-typedef enum {
-    SOIL_NORMAL,
-    SOIL_SANDY,
-    SOIL_CLAY,
-    SOIL_LOAMY
-} SoilType;
-
-// Plot struct
-typedef struct {
-    int moisture;           // Moisture level (0-100)
-    int fertility;          // Fertility level (0-100)
-    SoilType soilType;      // Soil Type
-    bool isTilled;          // Whether the plot is tilled
-    char *plantName;        // Name of the plant in the plot (NULL if empty)
-} Plot;
 
 // Initialize a plot
 void initializePlot(Plot *plot) {

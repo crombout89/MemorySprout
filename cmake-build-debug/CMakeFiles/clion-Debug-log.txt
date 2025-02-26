@@ -1,10 +1,4 @@
 C:\Users\TacoQueen\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/TacoQueen/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "C:\BCIT\CST WINTER 2025\COMP2510 -- Procedural Programming\MemorySprout" -B "C:\BCIT\CST WINTER 2025\COMP2510 -- Procedural Programming\MemorySprout\cmake-build-debug"
--- The C compiler identification is GNU 13.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Users/TacoQueen/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done (3.5s)
+-- Configuring done (0.2s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/BCIT/CST WINTER 2025/COMP2510 -- Procedural Programming/MemorySprout/cmake-build-debug

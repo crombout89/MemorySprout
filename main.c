@@ -1,18 +1,25 @@
 #include "garden.h"
+#include <stdio.h>
 
 int main() {
+    srand(time(NULL));          // Seed the random number generator
     Garden myGarden;
     initializeGarden(&myGarden);
 
-    displayGardenStatus(&myGarden);
+    // Add some items to the inventory
+    addItemToInventory(&myGarden.inventory, "Carrot Seed", 10);
+    addItemToInventory(&myGarden.inventory, "Hoe", 1);
+    addItemToInventory(&myGarden.inventory, "Greenies", 3);
 
-    // Test some actions
-    plantInGardenPlot(&myGarden, 5, 5, "Carrot");
-    waterGardenPlot(&myGarden, 5, 5);
-    harvestGardenPlot(&myGarden, 5, 5);
+    // Display the inventory
+    displayInventory(&myGarden.inventory);
 
-    // Display updated garden status
-    displayGardenStatus(&myGarden);
+    // Remove items
+    removeItemFromInventory(&myGarden.inventory, "Carrot Seed", 5);
+    removeItemFromInventory(&myGarden.inventory, "Hoe", 1);
+
+    // Display the inventory again
+    displayInventory(&myGarden.inventory);
 
     return 0;
 }

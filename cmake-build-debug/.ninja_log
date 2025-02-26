@@ -1,0 +1,8 @@
+# ninja log v6
+29	236	7622345574999767	CMakeFiles/MemorySprout.dir/src/main.c.obj	43bea2c31be6d8b5
+36	245	7622345575059815	CMakeFiles/MemorySprout.dir/src/garden.c.obj	41b3621be89e7adb
+45	247	7622345575149857	CMakeFiles/MemorySprout.dir/src/plant.c.obj	582a52d2d966780
+67	249	7622345575371389	CMakeFiles/MemorySprout.dir/src/inventory.c.obj	1740aec9fdb5cc9d
+82	250	7622345575531503	CMakeFiles/MemorySprout.dir/src/weather.c.obj	df1012f8dc7c2032
+55	258	7622345575260049	CMakeFiles/MemorySprout.dir/src/tile.c.obj	6cd95bdb95ce3a89
+95	273	7622345575661479	CMakeFiles/MemorySprout.dir/src/ui.c.obj	d909547f388a5aa1

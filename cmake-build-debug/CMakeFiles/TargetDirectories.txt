@@ -1,0 +1,3 @@
+C:/BCIT/CST WINTER 2025/COMP2510 -- Procedural Programming/MemorySprout/cmake-build-debug/CMakeFiles/MemorySprout.dir
+C:/BCIT/CST WINTER 2025/COMP2510 -- Procedural Programming/MemorySprout/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/BCIT/CST WINTER 2025/COMP2510 -- Procedural Programming/MemorySprout/cmake-build-debug/CMakeFiles/rebuild_cache.dir

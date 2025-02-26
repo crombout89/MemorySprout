@@ -1,0 +1,32 @@
+# General
+*.o              # Object files
+*.a              # Static libraries
+*.so             # Shared libraries
+*.out            # Executable files
+*.exe            # Windows executables
+*.log            # Log files
+*.swp            # Swap files created by some editors
+*.tmp            # Temporary files
+
+# CMake
+CMakeFiles/      # CMake-generated files
+CMakeCache.txt   # CMake-generated cache file
+cmake_install.cmake
+Makefile         # Auto-generated Makefile
+compile_commands.json  # Compilation database (if auto-generated)
+build/           # Build directory (if default is "build")
+_build/          # Alternative build directory name
+
+# CLion-specific
+.idea/           # CLion project settings
+cmake-build-debug/  # Default CLion debug build directory
+cmake-build-release/ # Default CLion release build directory
+
+# OS-specific files
+.DS_Store        # macOS Finder metadata
+Thumbs.db        # Windows thumbnail cache
+desktop.ini      # Windows desktop configuration file
+
+# Backup files
+*.bak            # Backup files
+*.orig           # Original files created by version control
